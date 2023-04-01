@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 20%;
+}
+
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: max(16px, 1em);
+}
+
+form {
+  border: 1px solid black;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+#wine_forms {
+  display: grid;
+  gap: 0.3125rem;
+}
+
+button {
+  appearance: none;
+  border: 1px solid;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="text"],
+/* input[type="email"], */
+textarea {
+  appearance: none;
+  border: 1px solid;
+  background: transparent;
+}
+
+.update,
+.delete {
+  padding: 8px 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: #1ab188;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  width: 25%;
+}
+
+#post {
+  padding: 8px 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: #1ab188;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  width: 25%;
+}
+
+.update,
+.delete:hover {
+  background: #179b77;
+}
+
+#post:hover {
+  background: #179b77;
+}
+
+select {
+  display: flex;
+  padding: 0;
+  background: none;
+  border: 1px solid black;
+  padding: 0.4rem;
+  border-radius: 0;
+}
+
+select option {
+  outline: none;
+}
+
+fieldset {
+  border: 0;
+}
+
+fieldset:nth-of-type(1),
+fieldset:nth-of-type(2) {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.wine_name {
+  width: 40%;
+}

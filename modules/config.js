@@ -1,0 +1,2 @@
+export const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwZ2t2ZXRnd29mbXR3c3RjYXJxIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzk5MTkyNjUsImV4cCI6MTk5NTQ5NTI2NX0.ptVgDfMotm1zcYVvjqHeqbx0FGhKz-9azLkhklE_ywM";
+export const ENDPOINT = "https://tpgkvetgwofmtwstcarq.supabase.co/rest/v1/wines";
